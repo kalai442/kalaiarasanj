@@ -1,0 +1,88 @@
+# Zeotap Software Engineer Intern Assignment
+
+## Project 1: Google Sheets Clone
+### Description
+This is a web-based spreadsheet application mimicking Google Sheets. It allows users to enter data, format cells, and apply basic mathematical and data quality functions.
+
+### Tech Stack
+- **Frontend**: React, TailwindCSS, ShadCN UI
+- **Backend**: None (Client-side application)
+
+### Features
+- Spreadsheet interface with cell input
+- Mathematical functions (SUM, AVERAGE, MAX, MIN, COUNT)
+- Data quality functions (TRIM, UPPER, LOWER, REMOVE_DUPLICATES, FIND_AND_REPLACE)
+- Cell formatting (bold, italics, color, font size)
+- Row/column addition, deletion, and resizing
+
+### Installation & Running
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/your-username/your-repo.git
+   cd google-sheets-clone
+   ```
+2. Install dependencies:
+   ```sh
+   npm install
+   ```
+3. Start the application:
+   ```sh
+   npm start
+   ```
+
+## Project 2: CDP Chatbot
+### Description
+A chatbot that answers "how-to" questions related to four Customer Data Platforms (CDPs): Segment, mParticle, Lytics, and Zeotap. It retrieves relevant responses from pre-indexed documentation.
+
+### Tech Stack
+- **Backend**: Python, Flask
+- **Data Storage**: JSON file (cdp_docs.json)
+
+### Features
+- Answer "how-to" questions about CDPs
+- Uses a simple document indexer to retrieve answers
+- Returns top 3 relevant responses
+
+### Installation & Running
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/your-username/your-repo.git
+   cd cdp-chatbot
+   ```
+2. Create a virtual environment (optional but recommended):
+   ```sh
+   python -m venv venv
+   ```
+   - **Activate it:**
+     - Windows:  
+       ```sh
+       venv\Scripts\activate
+       ```
+     - macOS/Linux:  
+       ```sh
+       source venv/bin/activate
+       ```
+3. Install dependencies:
+   ```sh
+   pip install -r requirements.txt
+   ```
+4. Start the chatbot:
+   ```sh
+   python app.py
+   ```
+5. Make a POST request to test:
+   ```sh
+   curl -X POST http://127.0.0.1:5000/chat -H "Content-Type: application/json" -d '{"query": "How to set up a new source in Segment?"}'
+   ```
+
+## Security & Performance Considerations
+- Sanitized user input to prevent injection attacks
+- Optimized data retrieval using indexed JSON search
+- Configurable debug mode for testing and production readiness
+
+## GitHub Repository
+[GitHub Link Here]
+
+---
+
+For any queries, contact me at [your email].
