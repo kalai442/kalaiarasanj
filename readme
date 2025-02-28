@@ -74,15 +74,3 @@ A chatbot that answers "how-to" questions related to four Customer Data Platform
    ```sh
    curl -X POST http://127.0.0.1:5000/chat -H "Content-Type: application/json" -d '{"query": "How to set up a new source in Segment?"}'
    ```
-
-## Security & Performance Considerations
-- Sanitized user input to prevent injection attacks
-- Optimized data retrieval using indexed JSON search
-- Configurable debug mode for testing and production readiness
-
-## GitHub Repository
-[GitHub Link Here]
-
----
-
-For any queries, contact me at [your email].
