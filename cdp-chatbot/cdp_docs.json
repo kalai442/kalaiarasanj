@@ -1,0 +1,6 @@
+[
+  {"title": "Setting up a new source in Segment", "content": "To set up a new source in Segment, go to the Sources tab, click Add Source, and follow the configuration steps."},
+  {"title": "Creating a user profile in mParticle", "content": "To create a user profile in mParticle, ensure the SDK is integrated, then call the 'Identify' API with user details."},
+  {"title": "Building an audience segment in Lytics", "content": "Navigate to the Segments section in Lytics, click Create Segment, define rules, and save."},
+  {"title": "Integrating data with Zeotap", "content": "To integrate data with Zeotap, use the API or platform UI to upload datasets and configure mapping."}
+]
